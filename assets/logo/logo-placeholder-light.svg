@@ -1,0 +1,10 @@
+<svg width="180" height="52" viewBox="0 0 180 52" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Al-Farah Medical Center logo placeholder">
+  <rect x="0.5" y="0.5" width="179" height="51" rx="6" fill="none" stroke="#B7955B" stroke-width="1" stroke-dasharray="3 3"/>
+  <g fill="none" stroke="#FCFCF9" stroke-width="1.6">
+    <circle cx="26" cy="26" r="13"/>
+    <line x1="26" y1="19" x2="26" y2="33"/>
+    <line x1="19" y1="26" x2="33" y2="26"/>
+  </g>
+  <text x="48" y="23" font-family="Manrope, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5" fill="#FCFCF9">AL-FARAH</text>
+  <text x="48" y="36" font-family="Manrope, Arial, sans-serif" font-size="8.5" font-weight="500" letter-spacing="1.5" fill="#DCE8E1">MEDICAL CENTER</text>
+</svg>

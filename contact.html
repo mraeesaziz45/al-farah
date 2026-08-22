@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Al-Farah Medical Center</title>
+<meta name="description" content="Get in touch with Al-Farah Medical Center to book an appointment or ask a question.">
+<meta property="og:title" content="Contact Us — Al-Farah Medical Center">
+<meta property="og:description" content="We're here when you need us.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo/logo-placeholder.svg" alt="Al-Farah Medical Center" width="180" height="52">
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="team.html">Team</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="contact.html" class="btn btn-primary header-cta-desktop">Book an Appointment</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-top">
+    <img src="assets/logo/logo-placeholder.svg" alt="Al-Farah Medical Center" width="150" height="44">
+    <button class="mobile-menu-close" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="team.html">Team</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+  <div class="mobile-menu-cta">
+    <a href="contact.html" class="btn btn-primary">Book an Appointment</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero bg-cream">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Contact</p>
+      <h1 class="page-heading h1" data-reveal>We're here when you need us.</h1>
+      <p class="body-lg muted" data-reveal>Reach out to book an appointment, ask a question, or request more information about Al-Farah Medical Center.</p>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="container contact-layout">
+
+      <div data-reveal>
+        <p class="eyebrow">Get in Touch</p>
+        <h2 class="h2 mt-16">Contact information</h2>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <span class="label">Address</span>
+            <address class="value">[Clinic Address Placeholder]</address>
+          </div>
+          <div class="contact-info-item">
+            <span class="label">Phone</span>
+            <p class="value">[Phone Number Placeholder]</p>
+          </div>
+          <div class="contact-info-item">
+            <span class="label">Email</span>
+            <p class="value">[Email Address Placeholder]</p>
+          </div>
+          <div class="contact-info-item">
+            <span class="label">Opening Hours</span>
+            <p class="value">[Opening Hours Placeholder]</p>
+          </div>
+        </div>
+        <p class="contact-note">For urgent medical situations, please contact your local emergency services. Al-Farah Medical Center will confirm here whether emergency services are offered directly once that information is finalized.</p>
+      </div>
+
+      <div data-reveal>
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" required autocomplete="name" aria-describedby="fullName-error">
+              <span class="field-error" id="fullName-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" aria-describedby="email-error">
+              <span class="field-error" id="email-error"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" aria-describedby="phone-error">
+              <span class="field-error" id="phone-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required aria-describedby="subject-error">
+              <span class="field-error" id="subject-error"></span>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="appointmentDate">Preferred Appointment Date <span class="optional">(optional)</span></label>
+            <input type="date" id="appointmentDate" name="appointmentDate">
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+          <div class="form-submit-row">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="map-section bg-white">
+    <div class="container">
+      <div class="map-card" data-reveal>
+        <div class="map-media">
+          <img src="assets/images/map-placeholder.jpg" alt="Map placeholder for Al-Farah Medical Center location" width="1000" height="1000" loading="lazy" decoding="async">
+        </div>
+        <div class="map-content">
+          <p class="eyebrow">Location</p>
+          <h3 class="h3">Find Al-Farah Medical Center</h3>
+          <p>A Google Maps embed will replace this placeholder once the clinic's confirmed address is available.</p>
+          <a href="#" class="text-link">Get Directions <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="assets/logo/logo-placeholder-light.svg" alt="Al-Farah Medical Center" class="footer-logo" width="170" height="50">
+      <p class="footer-about">Al-Farah Medical Center provides trusted medical care with an emphasis on expertise, dignity, and patient-centered service.</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">Navigation</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">Services</p>
+      <ul>
+        <li><a href="services.html#radiology">Radiology</a></li>
+        <li><a href="services.html#consultation">Consultation</a></li>
+        <li><a href="services.html#laboratory">Diagnostics</a></li>
+        <li><a href="services.html#specialist">Specialist Care</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">Contact</p>
+      <ul>
+        <li>[Clinic Address Placeholder]</li>
+        <li>[Phone Number Placeholder]</li>
+        <li>[Email Address Placeholder]</li>
+        <li>[Opening Hours Placeholder]</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 Al-Farah Medical Center</p>
+    <div class="footer-legal">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
